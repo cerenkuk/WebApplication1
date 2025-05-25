@@ -1,0 +1,27 @@
+﻿
+@model List<WebApplication1.Models.Users>
+
+<h2>Onay Bekleyen Kullanıcılar</h2>
+
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Oluşturulma Tarihi</th>
+            <th>Onayla</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@user.CreatedAt?.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>
+                    @Html.ActionLink("Onayla", "ApproveUser", "Admin", new { id = user.UserID }, null)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

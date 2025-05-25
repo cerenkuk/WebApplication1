@@ -1,0 +1,63 @@
+﻿/* Tüm sayfa için temel stil tanımlamaları */
+body {
+    background-color: #e39691; /* Sayfa arka plan rengi */
+    height: 100vh; /* Sayfa yüksekliği ekranın tamamı kadar olacak */
+    display: flex; /* İçeriği esnek kutu olarak hizalamak için */
+    justify-content: center; /* Yatay ortalama */
+    align-items: center; /* Dikey ortalama */
+    font-family: Arial, Helvetica, sans-serif; /* Yazı tipi */
+}
+
+/* Kayıt formu kutusu için stiller */
+.kayıt {
+    background-color: #ffffff; /* Beyaz arka plan */
+    padding: 50px; /* İç boşluk */
+    border-radius: 40px; /* Kenar yuvarlaklığı */
+    width: 35%; /* Genişlik (ekranın %35’i kadar) */
+    min-height: 60%; /* Minimum yükseklik */
+    text-align: center; /* İçerik ortalanır */
+}
+
+    /* Başlık (h2) etiketi için stil */
+    .kayıt h2 {
+        font-size: 30px; /* Yazı boyutu */
+        font-weight: bold; /* Kalın yazı */
+        color: #3e3b3b; /* Koyu gri renk */
+        margin-bottom: 30px; /* Alt boşluk */
+    }
+
+    /* Giriş kutuları (input) için stiller */
+    .kayıt input {
+        width: 90%; /* Genişlik kutunun %90’ı */
+        padding: 12px; /* İç boşluk */
+        margin-bottom: 15px; /* Alt boşluk */
+        border: 1px solid #e39691; /* Kenar çizgisi */
+        border-radius: 40px; /* Yuvarlatılmış köşeler */
+        font-size: 16px; /* Yazı boyutu */
+    }
+
+    /* Buton için stil tanımı */
+    .kayıt button {
+        width: 95%; /* Genişlik */
+        padding: 12px; /* İç boşluk */
+        background-color: #e39691; /* Arka plan rengi */
+        color: white; /* Yazı rengi */
+        border: 1px solid #f762e1; /* Kenar çizgisi */
+        border-radius: 40px; /* Yuvarlatılmış kenarlar */
+        font-weight: bold; /* Kalın yazı */
+        font-size: 18px; /* Yazı boyutu */
+        cursor: pointer; /* Fare imlecini buton göstergesi yapar */
+        transition: background-color 0.3s ease; /* Hover geçiş efekti */
+    }
+
+        /* Buton üzerine gelindiğinde arka plan rengini değiştir */
+        .kayıt button:hover {
+            background-color: #875a57; /* Hover durumunda koyu kahve rengi */
+        }
+
+/* Bilgi mesajı için stil */
+.bilgi {
+    margin-top: 20px; /* Üst boşluk */
+    font-size: 18px; /* Yazı boyutu */
+    font-weight: bold; /* Kalın yazı */
+}

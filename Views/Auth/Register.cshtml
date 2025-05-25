@@ -1,0 +1,27 @@
+﻿@* View'a Users modelinden veri gönderileceğini belirtir *@
+@model WebApplication1.Models.Users
+
+@* Kayıt formu oluşturuluyor. POST yöntemiyle Auth kontrolcüsündeki Register action'ına gönderilecek *@
+@using (Html.BeginForm("Register", "Auth", FormMethod.Post))
+{
+    // CSRF saldırılarına karşı güvenlik token'ı
+    @Html.AntiForgeryToken()
+
+    // Kullanıcının adını gireceği input alanı
+    <input type="text" name="Name" placeholder="Adınız" />
+
+    // Kullanıcının soyadını gireceği input alanı
+    <input type="text" name="Surname" placeholder="Soyadınız" />
+
+    // E-posta alanı; model bağlama (model binding) kullanılarak yapılmış, doğrulama için uygundur
+    @Html.TextBoxFor(m => m.Email, new { placeholder = "E-posta" })
+
+    // Şifre alanı - model bağlama kullanılmamış, elle tanımlanmış
+    <input type="password" name="password" placeholder="Şifre" />
+
+    // Formu göndermek için buton
+    <button type="submit">Kayıt Ol</button>
+
+    // Olası validasyon hataları burada görüntülenir
+    @Html.ValidationSummary()
+}

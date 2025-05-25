@@ -1,0 +1,648 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\admin\\pendingusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\admin\\pendingusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:frontend proje\\sepet.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:frontend proje\\sepet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:frontend proje\\sepet.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|c:\\users\\kukem\\onedrive\\masa\u00FCst\u00FC\\webapplication1\\frontend proje\\etkinlik.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:frontend proje\\etkinlik.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\etkinlik.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:frontend proje\\etkinlik.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\etkinlik.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:frontend proje\\etkinlik.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\content\\sign-up.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:content\\sign-up.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\content\\sign-in.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:content\\sign-in.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\models\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:models\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\models\\etkinlikmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:models\\etkinlikmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\models\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:models\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\models\\etkinlikmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:models\\etkinlikmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\models\\etkinlikmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:models\\etkinlikmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\content\\sign-in.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CCC2EF-352E-4DD6-924D-3336AF5D77B3}|WebApplication1.csproj|solutionrelative:content\\sign-in.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 174,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "sepet.css",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.css",
+              "RelativeDocumentMoniker": "frontend proje\\sepet.css",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.css",
+              "RelativeToolTip": "frontend proje\\sepet.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-24T12:21:20.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "sepet.html",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.html",
+              "RelativeDocumentMoniker": "frontend proje\\sepet.html",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.html",
+              "RelativeToolTip": "frontend proje\\sepet.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-24T12:18:29.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "sepet.js",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.js",
+              "RelativeDocumentMoniker": "frontend proje\\sepet.js",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\sepet.js",
+              "RelativeToolTip": "frontend proje\\sepet.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwDQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-24T12:20:59.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PendingUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Admin\\PendingUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\PendingUsers.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Admin\\PendingUsers.cshtml",
+              "RelativeToolTip": "Views\\Admin\\PendingUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:15:55.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Auth\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Auth\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Auth\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T19:00:13.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T09:16:24.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:05:58.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:05:32.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:02:49.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-22T16:30:27.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "etkinlik.js",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\etkinlik.js",
+              "RelativeDocumentMoniker": "frontend proje\\etkinlik.js",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\etkinlik.js",
+              "RelativeToolTip": "frontend proje\\etkinlik.js",
+              "ViewState": "AgIAANUAAAAAAAAAAAAmwP4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-24T12:18:58.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Account\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Account\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\Account\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T13:42:49.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "sign-up.css",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Content\\sign-up.css",
+              "RelativeDocumentMoniker": "Content\\sign-up.css",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Content\\sign-up.css",
+              "RelativeToolTip": "Content\\sign-up.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T15:57:38.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "sign-in.css",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Content\\sign-in.css",
+              "RelativeDocumentMoniker": "Content\\sign-in.css",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Content\\sign-in.css",
+              "RelativeToolTip": "Content\\sign-in.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T15:40:04.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "etkinlik.html",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\etkinlik.html",
+              "RelativeDocumentMoniker": "frontend proje\\etkinlik.html",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\etkinlik.html",
+              "RelativeToolTip": "frontend proje\\etkinlik.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-24T12:17:05.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "etkinlik.css",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\etkinlik.css",
+              "RelativeDocumentMoniker": "frontend proje\\etkinlik.css",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\frontend proje\\etkinlik.css",
+              "RelativeToolTip": "frontend proje\\etkinlik.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAMEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-24T12:20:21.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Account\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Account\\SignIn.cshtml",
+              "RelativeToolTip": "Views\\Account\\SignIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T13:59:44.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChangePasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\ChangePasswordModel.cs",
+              "RelativeDocumentMoniker": "Models\\ChangePasswordModel.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\ChangePasswordModel.cs",
+              "RelativeToolTip": "Models\\ChangePasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:32:18.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "etkinlikModel.Context.tt",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\etkinlikModel.Context.tt",
+              "RelativeDocumentMoniker": "Models\\etkinlikModel.Context.tt",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\etkinlikModel.Context.tt",
+              "RelativeToolTip": "Models\\etkinlikModel.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-24T08:56:45.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:00:26.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Tickets.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\Tickets.cs",
+              "RelativeDocumentMoniker": "Models\\Tickets.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\Tickets.cs",
+              "RelativeToolTip": "Models\\Tickets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:00:24.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartItems.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\CartItems.cs",
+              "RelativeDocumentMoniker": "Models\\CartItems.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\CartItems.cs",
+              "RelativeToolTip": "Models\\CartItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:39:34.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\Events.cs",
+              "RelativeDocumentMoniker": "Models\\Events.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\Events.cs",
+              "RelativeToolTip": "Models\\Events.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:00:19.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "etkinlikModel.Context.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\etkinlikModel.Context.cs",
+              "RelativeDocumentMoniker": "Models\\etkinlikModel.Context.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\etkinlikModel.Context.cs",
+              "RelativeToolTip": "Models\\etkinlikModel.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:21:28.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:37:00.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:55:47.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:11:40.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:36:01.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:32:02.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:56:54.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:14:56.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:41:17.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T13:00:04.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:45:23.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T10:18:32.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "etkinlikModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\etkinlikModel.edmx",
+              "RelativeDocumentMoniker": "Models\\etkinlikModel.edmx",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Models\\etkinlikModel.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\etkinlikModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-23T10:17:37.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "sign-in.css",
+              "DocumentMoniker": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Content\\sign-in.css",
+              "RelativeDocumentMoniker": "Content\\sign-in.css",
+              "ToolTip": "C:\\Users\\kukem\\OneDrive\\Masa\u00FCst\u00FC\\WebApplication1\\Content\\sign-in.css",
+              "RelativeToolTip": "Content\\sign-in.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T13:15:17.814Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 64,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

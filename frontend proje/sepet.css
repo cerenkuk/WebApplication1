@@ -1,0 +1,98 @@
+﻿/* Genel gövde stilleri */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Yazı tipi ailesi */
+    margin: 20px; /* Sayfanın etrafındaki boşluk */
+    background-color: #f4f4f4; /* Açık gri arka plan */
+}
+
+/* Sayfa başlığı stili */
+h1 {
+    color: #a31975; /* Koyu pembe renk */
+    text-align: center; /* Ortalanmış metin */
+    margin-bottom: 20px; /* Alt boşluk */
+}
+
+/* Her bir sepet öğesi kutusunun stili */
+.cart-item {
+    background-color: #fff; /* Beyaz arka plan */
+    padding: 15px; /* İç boşluk */
+    margin-bottom: 10px; /* Alt boşluk */
+    border-radius: 8px; /* Köşe yuvarlatma */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    display: flex; /* Esnek kutu düzeni */
+    justify-content: space-between; /* Öğeleri yatayda aralıklı hizalama */
+    align-items: center; /* Dikeyde ortalama */
+}
+
+    /* Sepet öğesi içindeki kalın yazı */
+    .cart-item strong {
+        color: #a31975; /* Koyu pembe renk */
+    }
+
+/* Sepet boş olduğunda gösterilen mesaj */
+#empty-cart {
+    text-align: center; /* Ortalanmış metin */
+    color: #777; /* Gri yazı rengi */
+}
+
+/* Toplam fiyat alanı */
+.total {
+    text-align: right; /* Sağa hizalanmış metin */
+    margin-top: 20px; /* Üst boşluk */
+    font-weight: bold; /* Kalın yazı */
+    font-size: 1.2em; /* Normalden biraz büyük yazı */
+    color: #a31975; /* Koyu pembe */
+}
+
+/* Ödeme bölümü kutusu */
+.payment-section {
+    margin-top: 30px; /* Üst boşluk */
+    padding: 20px; /* İç boşluk */
+    background-color: #fff; /* Beyaz arka plan */
+    border-radius: 8px; /* Köşe yuvarlatma */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+    /* Ödeme başlığı */
+    .payment-section h2 {
+        color: #a31975; /* Koyu pembe */
+        margin-bottom: 15px; /* Alt boşluk */
+        text-align: center; /* Ortalanmış */
+    }
+
+/* Ödeme butonu stili */
+.payment-button {
+    display: block; /* Tam genişlik */
+    width: 100%;
+    padding: 10px 20px; /* Dikey ve yatay iç boşluk */
+    background: #4CAF50; /* Yeşil arka plan */
+    color: white; /* Beyaz yazı */
+    border: none; /* Kenarlık yok */
+    border-radius: 6px; /* Köşe yuvarlatma */
+    cursor: pointer; /* Üzerine gelince imleç değişimi */
+    font-size: 16px; /* Orta büyüklükte yazı */
+    transition: background-color 0.3s ease; /* Renk geçiş efekti */
+    margin-top: 10px; /* Üst boşluk */
+}
+
+    /* Ödeme butonunun üzerine gelinceki hali */
+    .payment-button:hover {
+        background-color: #45a049; /* Daha koyu yeşil */
+    }
+
+/* Genel buton stilleri (kaldır gibi) */
+button {
+    padding: 8px 15px; /* İç boşluk */
+    background: #a31975; /* Koyu pembe arka plan */
+    color: white; /* Beyaz yazı */
+    border: none; /* Kenarlık yok */
+    border-radius: 6px; /* Köşe yuvarlatma */
+    cursor: pointer; /* İmleç değişimi */
+    font-size: 14px; /* Küçük yazı */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+    /* Butonun hover hali */
+    button:hover {
+        background-color: #8c1563; /* Daha koyu pembe */
+    }

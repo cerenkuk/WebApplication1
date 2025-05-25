@@ -1,0 +1,72 @@
+﻿@{
+    Layout = null; // Sayfa için genel bir layout (şablon) kullanılmaz.
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Kayıt Ol</title>
+    <!-- Kayıt sayfasına özel CSS dosyası -->
+    <link href="~/Content/sign-up.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="kayıt">
+        <h2>Kayıt Ol</h2>
+        <!-- Kayıt formu başlangıcı -->
+        <form id="kayıtForm">
+            <!-- Ad alanı -->
+            <input type="text" id="name" placeholder="Adınız" required />
+            <!-- Soyad alanı -->
+            <input type="text" id="surname" placeholder="Soyadınız" required />
+            <!-- E-posta adresi alanı -->
+            <input type="email" id="email" placeholder="E-posta" required />
+            <!-- Şifre alanı -->
+            <input type="password" id="sifre" placeholder="Şifre" required />
+            <!-- Gönder butonu -->
+            <button type="submit">Kayıt Ol</button>
+        </form>
+        <!-- Bilgilendirme mesajlarının gösterileceği alan -->
+        <div id="bilgiMesaji" class="bilgi"></div>
+    </div>
+
+    <!-- Kayıt formunu AJAX ile sunucuya gönderme -->
+    <script>
+        document.getElementById("kayıtForm").addEventListener("submit", async function (e) {
+            e.preventDefault(); // Sayfanın yeniden yüklenmesini engeller
+
+            // Formdan gelen değerleri al
+            const name = document.getElementById("name").value.trim();
+            const surname = document.getElementById("surname").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("sifre").value.trim();
+            const bilgiMesaji = document.getElementById("bilgiMesaji");
+
+            try {
+                // Sunucuya kayıt isteği gönder
+                const response = await fetch("/Auth/Register", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ name, surname, email, password })
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    // Kayıt başarılı ise mesaj göster
+                    bilgiMesaji.textContent = data.message || "Kayıt başarılı!";
+                    bilgiMesaji.style.color = "green";
+                    this.reset(); // Formu temizle
+                } else {
+                    // Hata mesajı göster
+                    bilgiMesaji.textContent = data.message || "Kayıt başarısız oldu.";
+                    bilgiMesaji.style.color = "red";
+                }
+            } catch (err) {
+                // Sunucu bağlantı hatası
+                bilgiMesaji.textContent = "Sunucuya bağlanılamadı.";
+                bilgiMesaji.style.color = "red";
+            }
+        });
+    </script>
+</body>
+</html>

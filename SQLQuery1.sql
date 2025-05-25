@@ -1,0 +1,46 @@
+USE EtkinlikDB;
+GO
+
+CREATE TABLE Users (
+    UserID INT IDENTITY PRIMARY KEY,
+    Email NVARCHAR(255) UNIQUE NOT NULL,
+    PasswordHash NVARCHAR(255) NOT NULL,
+    IsApproved BIT DEFAULT 0, -- Yönetici onayý
+    Role NVARCHAR(50) DEFAULT 'User', -- User veya Admin
+    CreatedAt DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE Events (
+    EventID INT IDENTITY PRIMARY KEY,
+    Title NVARCHAR(255) NOT NULL,
+    EventType NVARCHAR(100),
+    EventDate DATETIME NOT NULL,
+    Quota INT NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    IsActive BIT DEFAULT 1
+);
+
+CREATE TABLE Announcements (
+    AnnouncementID INT IDENTITY PRIMARY KEY,
+    Title NVARCHAR(255) NOT NULL,
+    Content NVARCHAR(MAX),
+    CreatedAt DATETIME DEFAULT GETDATE(),
+    IsActive BIT DEFAULT 1
+);
+
+CREATE TABLE Tickets (
+    TicketID INT IDENTITY PRIMARY KEY,
+    UserID INT FOREIGN KEY REFERENCES Users(UserID),
+    EventID INT FOREIGN KEY REFERENCES Events(EventID),
+    TicketType NVARCHAR(100),
+    Price DECIMAL(10, 2),
+    PurchasedAt DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE CartItems (
+    CartItemID INT IDENTITY PRIMARY KEY,
+    UserID INT FOREIGN KEY REFERENCES Users(UserID),
+    EventID INT FOREIGN KEY REFERENCES Events(EventID),
+    TicketType NVARCHAR(100),
+    Quantity INT DEFAULT 1
+);

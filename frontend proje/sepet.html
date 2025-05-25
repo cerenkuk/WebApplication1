@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+ <!-- Sayfa dili Türkçe olarak ayarlanıyor -->
+<head>
+    <meta charset="UTF-8"> <!-- Türkçe karakter desteği için UTF-8 kodlaması -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobil uyumluluk için viewport ayarı -->
+    <title>Sepetim</title> <!-- Sekme başlığı -->
+    <link rel="stylesheet" href="cart.css"> <!-- Stil dosyasının bağlanması -->
+</head>
+<body>
+    <!-- Sayfa başlığı -->
+    <h1>Sepetim</h1>
+
+    <!-- Sepet öğelerinin listeleneceği div -->
+    <div id="cart-items"></div>
+
+    <!-- Toplam fiyatın gösterileceği alan -->
+    <div id="total-price" class="total"></div>
+
+    <!-- Ödeme alanı -->
+    <div class="payment-section">
+        <h2>Ödeme</h2>
+        <!-- Toplam ödeme tutarının gösterimi -->
+        <p>Toplam tutar: <span id="payment-total"></span> TL</p>
+        <!-- Ödeme butonu -->
+        <button class="payment-button" onclick="processPayment()">Ödemeyi Tamamla</button>
+    </div>
+
+    <!-- Sepet işlemleri ve ödeme işlemlerini yöneten JS dosyasının bağlanması -->
+    <script src="cart.js"></script>
+</body>
+</html>

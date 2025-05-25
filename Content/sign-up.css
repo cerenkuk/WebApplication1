@@ -1,0 +1,63 @@
+﻿/* Sayfanın genel arka plan rengi ve hizalama ayarları */
+body {
+    background-color: #e39691; /* Arka plan pembe tonu */
+    height: 100vh; /* Tüm görünüm yüksekliği kadar kapla */
+    display: flex; /* İçeriği ortalamak için flexbox kullan */
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    font-family: Arial, Helvetica, sans-serif; /* Yazı tipi ayarı */
+}
+
+/* Kayıt formunun genel kutusu */
+.kayıt {
+    background-color: #ffffff; /* Beyaz zemin */
+    padding: 50px; /* İç boşluk */
+    border-radius: 40px; /* Kenar yumuşatma */
+    width: 35%; /* Ekranın %35’ini kapla */
+    min-height: 60%; /* Minimum yüksekliği belirle */
+    text-align: center; /* İçerikleri ortala */
+}
+
+    /* Başlık stilleri */
+    .kayıt h2 {
+        font-size: 30px; /* Başlık font büyüklüğü */
+        font-weight: bold; /* Kalın yazı */
+        color: #3e3b3b; /* Koyu gri renk */
+        margin-bottom: 30px; /* Alt boşluk */
+    }
+
+    /* Giriş alanlarının genel stilleri */
+    .kayıt input {
+        width: 90%; /* Genişlik */
+        padding: 12px; /* İç boşluk */
+        margin-bottom: 15px; /* Alt boşluk */
+        border: 1px solid #e39691; /* Sınır rengi (pembe ton) */
+        border-radius: 40px; /* Köşe yumuşatma */
+        font-size: 16px; /* Yazı boyutu */
+    }
+
+    /* Butonun genel stil ayarları */
+    .kayıt button {
+        width: 95%; /* Genişlik */
+        padding: 12px; /* İç boşluk */
+        background-color: #e39691; /* Arka plan rengi */
+        color: white; /* Yazı rengi */
+        border: 1px solid #f762e1; /* Kenarlık rengi */
+        border-radius: 40px; /* Köşe yumuşatma */
+        font-weight: bold; /* Kalın yazı */
+        font-size: 18px; /* Yazı boyutu */
+        cursor: pointer; /* Fare simgesi el şeklinde */
+        transition: background-color 0.3s ease; /* Geçiş efekti */
+    }
+
+        /* Buton üzerine gelindiğinde arka plan rengini koyulaştır */
+        .kayıt button:hover {
+            background-color: #875a57; /* Koyu kahverengi ton */
+        }
+
+/* Bilgi mesajı stili */
+.bilgi {
+    margin-top: 20px; /* Üst boşluk */
+    font-size: 18px; /* Yazı boyutu */
+    font-weight: bold; /* Kalın yazı */
+}

@@ -1,0 +1,18 @@
+﻿@* Giriş formu için HTML form oluşturuluyor. Form, POST yöntemiyle 'Auth' kontrolcüsündeki 'Login' action'ına gönderilecek *@
+@using (Html.BeginForm("Login", "Auth", FormMethod.Post))
+{
+    // CSRF (Cross-Site Request Forgery) saldırılarına karşı koruma sağlayan anti-forgery token eklenir.
+    @Html.AntiForgeryToken()
+
+    // Kullanıcının e-posta adresini girmesi için input alanı
+    <input type="email" name="email" placeholder="E-posta" />
+
+    // Kullanıcının şifresini girmesi için input alanı
+    <input type="password" name="password" placeholder="Şifre" />
+
+    // Formu sunucuya göndermek için buton
+    <button type="submit">Giriş Yap</button>
+
+    // Doğrulama hataları bu alanda gösterilir (örneğin, eksik alanlar ya da hatalı giriş)
+    @Html.ValidationSummary()
+}

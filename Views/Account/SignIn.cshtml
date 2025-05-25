@@ -1,0 +1,87 @@
+﻿@{
+    // Bu sayfa için layout kullanılmıyor. Sayfa kendi başına render edilir.
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Giriş Yap</title>
+
+    <!-- Giriş sayfası için stil dosyası -->
+    <link href="~/Content/sign-in.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Giriş formunu kapsayan ana kutu -->
+    <div class="kayıt">
+        <h2>Giriş Yap</h2>
+
+        <!-- Giriş formu -->
+        <form id="loginForm">
+            <!-- Kullanıcının e-posta adresini girdiği alan -->
+            <input type="email" id="email" placeholder="Mail adresiniz" required />
+
+            <!-- Kullanıcının şifresini girdiği alan -->
+            <input type="password" id="password" placeholder="Şifreniz" required />
+
+            <!-- Formu gönder butonu -->
+            <button type="submit">Giriş Yap</button>
+        </form>
+
+        <!-- Kullanıcının hesabı yoksa kayıt sayfasına yönlendirme linki -->
+        <p class="register-link">
+            Hesabın yok mu? <a href="@Url.Action("SignUp", "Account")">Kayıt Ol</a>
+        </p>
+
+        <!-- Sunucudan gelen geri bildirim mesajlarının gösterileceği alan -->
+        <div id="bilgiMesaji" class="bilgi"></div>
+    </div>
+
+    <!-- JavaScript kısmı: Giriş formunun sunucuya gönderilmesi ve geri dönüşün işlenmesi -->
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", async function (e) {
+            e.preventDefault(); // Sayfanın yenilenmesini engeller
+
+            // Form alanlarından e-posta ve şifre bilgilerini al
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value.trim();
+            const bilgiMesaji = document.getElementById("bilgiMesaji");
+
+            try {
+                // Giriş isteğini API'ye JSON formatında gönder
+                const response = await fetch("/Auth/Login", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ email, password })
+                });
+
+                // API'den gelen cevabı işle
+                if (response.ok) {
+                    const data = await response.json();
+
+                    if (data.success) {
+                        // Başarılı giriş durumunda mesaj göster
+                        bilgiMesaji.textContent = "Giriş başarılı! Hoşgeldiniz, " + data.userName;
+                        bilgiMesaji.style.color = "green";
+                    } else {
+                        // Başarısızlık mesajı göster
+                        bilgiMesaji.textContent = data.message || "Giriş başarısız oldu.";
+                        bilgiMesaji.style.color = "red";
+                    }
+                } else {
+                    // HTTP hataları için mesaj
+                    const error = await response.json();
+                    bilgiMesaji.textContent = error.message || "Giriş başarısız oldu.";
+                    bilgiMesaji.style.color = "red";
+                }
+            } catch (err) {
+                // Bağlantı veya sunucu hatası durumunda mesaj göster
+                bilgiMesaji.textContent = "Sunucuya bağlanılamadı.";
+                bilgiMesaji.style.color = "red";
+            }
+        });
+    </script>
+
+</body>
+</html>
